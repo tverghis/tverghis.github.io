@@ -1,0 +1,36 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav .links {
+	align-self: flex-start;
+}
+
+nav .contact {
+	align-self: flex-end;
+}
+
+nav .nav-section a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+}
+
+nav .links a {
+	padding: 1rem 2rem;
+}
+
+nav .links a:hover {
+	background-color: #ebebeb;
+}
+
+nav .contact a {
+	padding: 0.5rem 1rem;
+}
